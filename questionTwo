@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Number Validator</title>
+</head>
+<body>
+
+    <label for="userInput">Enter a number:</label>
+    <input type="text" id="userInput" placeholder="Enter a number">
+
+    <button id="checkBtn" type="button">Check</button>
+
+    <p id="result" role="status" aria-live="polite"></p>
+
+    <script>
+        // Select the input, button and result
+        let userInput = document.getElementById("userInput");
+        let checkBtn = document.getElementById("checkBtn");
+        let result = document.getElementById("result");
+
+        // Function to check the input
+        function checkInput() {
+            let input = userInput.value.trim();
+            let number = Number(input);
+
+            if (input === "" || isNaN(number)) {
+                result.textContent = "Please enter a valid number!";
+            } else if (number < 10) {
+                result.textContent = "The number is lower than 10";
+            } else if (number > 10) {
+                result.textContent = "The number is higher than 10";
+            } else {
+                result.textContent = "The number is equal to 10";
+            }
+        }
+
+        // Add click event listener
+        checkBtn.addEventListener("click", checkInput);
+    </script>
+
+</body>
+</html>
