@@ -8,13 +8,33 @@ This repository contains my solutions for three JavaScript exercises. The exerci
 
 Question 1: Change Message
 
+Description:
 This program changes the welcome message when the user clicks the Change Message button.
 
-How to run: Open Q1/questionOne.html in a web browser and click Change Message.
+How to Run:
 
-Expected output: The message changes from "Welcome to my website!" to "Hello there!".
+Open Q1/questionOne.html in a web browser.
 
-Screenshot: See the Question 1 screenshot in the Q1 folder.
+Click the Change Message button.
+
+Expected Output:
+The message changes from "Welcome to my website!" to "Hello there!".
+
+Test Evidence:
+
+Before clicking the button:
+
+<img width="624" height="170" alt="image" src="https://github.com/user-attachments/assets/e8260f1e-c1d4-47c5-9876-05e8a56a4dc1" />
+
+After clicking the button:
+
+<img width="624" height="156" alt="image" src="https://github.com/user-attachments/assets/bda2ac49-647f-4252-af1b-c25915fd3d78" />
+
+Test Result:
+The test was successful because the welcome message changed to "Hello there!" after clicking the button.
+
+
+
 
 Question 2: Smart Number Validator
 
