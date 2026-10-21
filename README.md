@@ -36,6 +36,7 @@ The test was successful because the welcome message changed to "Hello there!" af
 
 
 
+
 Question 2: Smart Number Validator
 
 Description:
@@ -88,15 +89,19 @@ Test Result:
 The program was tested with numbers below, above and equal to 10, as well as invalid input. The output should match the expected result for each test.
 
 
+
+
+
 Question 3: Dynamic Number Generator
 
 This program creates an ordered list containing five numbered items when the user clicks Generate.
 
-How to run: Open Q3/questionThree.html in a web browser and click Generate.
+How to run: Open questionThree.html in a web browser and click Generate.
 
 Expected output: The page displays five list items from 1 to 5.
 
-Screenshot: See the Question 3 screenshot in the Q3 folder.
+<img width="624" height="221" alt="image" src="https://github.com/user-attachments/assets/4f27d658-7ac7-47db-9cb4-4e5d45a00f6c" />
+
 
 Reflection
 
