@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change Message</title>
+</head>
+<body>
+
+    <div id="myElement">
+        <p id="message">Welcome to my website!</p>
+    </div>
+
+    <button id="changeBtn" type="button">Change Message</button>
+
+    <script>
+        // Select the paragraph and button
+        let message = document.getElementById("message");
+        let button = document.getElementById("changeBtn");
+
+        // Create a function to change the message
+        function changeMessage() {
+            message.textContent = "Hello there!";
+        }
+
+        // Add a click event listener to the button
+        button.addEventListener("click", changeMessage);
+    </script>
+
+</body>
+</html>
