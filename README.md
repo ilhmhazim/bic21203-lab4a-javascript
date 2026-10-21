@@ -14,6 +14,7 @@ This program changes the welcome message when the user clicks the Change Message
 How to Run:
 
 1.Open questionOne.html in a web browser.
+
 2.Click the Change Message button.
 
 Expected Output:
@@ -37,13 +38,51 @@ The test was successful because the welcome message changed to "Hello there!" af
 
 Question 2: Smart Number Validator
 
+Description:
 This program checks whether the user's input is a valid number and compares it with 10.
 
-How to run: Open Q2/questionTwo.html in a web browser, enter a number and click Check.
+How to Run:
 
-Expected output: The page displays whether the number is lower than, higher than or equal to 10. Invalid input displays an error message.
+1.Open questionTwo.html in a web browser.
 
-Screenshot: See the Question 2 screenshot in the Q2 folder.
+2.Enter a number in the input field.
+
+3.Click the Check button.
+
+Expected Output:
+The page displays whether the number is lower than, higher than or equal to 10. Invalid input displays an error message.
+
+Test Evidence:
+
+Test 1: Number lower than 10
+Input: 1
+Expected output: "The number is lower than 10".
+
+<img width="624" height="150" alt="image" src="https://github.com/user-attachments/assets/56cdaef1-6c23-407c-abbf-b356f56354c1" />
+
+
+Test 2: Number higher than 10
+Input: 15
+Expected output: "The number is higher than 10".
+
+<img width="624" height="166" alt="image" src="https://github.com/user-attachments/assets/a9902600-a284-414a-8dfa-7a002be3733b" />
+
+Test 3: Number equal to 10
+Input: 10
+Expected output: "The number is equal to 10".
+
+<img width="624" height="159" alt="image" src="https://github.com/user-attachments/assets/30c7c04c-65b9-4f33-8e2a-7254b9c45dcc" />
+
+Test 4: Invalid input
+Input: abc
+Expected output: "Please enter a valid number!".
+
+<img width="624" height="152" alt="image" src="https://github.com/user-attachments/assets/a5e9974a-c61a-41f0-ad52-11c7dc266e34" />
+
+
+Test Result:
+The program was tested with numbers below, above and equal to 10, as well as invalid input. The output should match the expected result for each test.
+
 
 Question 3: Dynamic Number Generator
 
