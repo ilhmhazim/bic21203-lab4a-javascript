@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic Number Generator</title>
+</head>
+<body>
+
+    <button id="generateBtn" type="button">Generate</button>
+
+    <ol id="numberList"></ol>
+
+    <script>
+        // Select the button and ordered list
+        let button = document.getElementById("generateBtn");
+        let numberList = document.getElementById("numberList");
+
+        // Function to generate numbers
+        function generateNumbers() {
+            // Clear existing items
+            numberList.textContent = "";
+
+            // Loop from 1 to 5
+            for (let i = 1; i <= 5; i++) {
+                // Create a new list item
+                let li = document.createElement("li");
+
+                // Set the text
+                li.textContent = "The number is " + i;
+
+                // Add the list item to the ordered list
+                numberList.appendChild(li);
+            }
+        }
+
+        // Add click event listener
+        button.addEventListener("click", generateNumbers);
+    </script>
+
+</body>
+</html>
