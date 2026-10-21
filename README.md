@@ -13,9 +13,8 @@ This program changes the welcome message when the user clicks the Change Message
 
 How to Run:
 
-Open Q1/questionOne.html in a web browser.
-
-Click the Change Message button.
+1.Open questionOne.html in a web browser.
+2.Click the Change Message button.
 
 Expected Output:
 The message changes from "Welcome to my website!" to "Hello there!".
