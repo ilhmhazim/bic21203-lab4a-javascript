@@ -55,6 +55,7 @@ The page displays whether the number is lower than, higher than or equal to 10. 
 Test Evidence:
 
 Test 1: Number lower than 10
+
 Input: 1
 Expected output: "The number is lower than 10".
 
@@ -62,18 +63,21 @@ Expected output: "The number is lower than 10".
 
 
 Test 2: Number higher than 10
-Input: 15
+
+Input: 14
 Expected output: "The number is higher than 10".
 
 <img width="624" height="166" alt="image" src="https://github.com/user-attachments/assets/a9902600-a284-414a-8dfa-7a002be3733b" />
 
 Test 3: Number equal to 10
+
 Input: 10
 Expected output: "The number is equal to 10".
 
 <img width="624" height="159" alt="image" src="https://github.com/user-attachments/assets/30c7c04c-65b9-4f33-8e2a-7254b9c45dcc" />
 
 Test 4: Invalid input
+
 Input: abc
 Expected output: "Please enter a valid number!".
 
