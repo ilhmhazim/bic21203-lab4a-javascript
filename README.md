@@ -7,7 +7,7 @@ Introduction
 
 This repository contains my solutions for three JavaScript exercises. The exercises demonstrate DOM manipulation, event listeners, input validation and dynamic list generation.
 
-Question 1: Change Message
+#Question 1: Change Message
 
 Description:
 This program changes the welcome message when the user clicks the Change Message button.
@@ -37,7 +37,7 @@ The test was successful because the welcome message changed to "Hello there!" af
 
 
 
-Question 2: Smart Number Validator
+#Question 2: Smart Number Validator
 
 Description:
 This program checks whether the user's input is a valid number and compares it with 10.
@@ -90,7 +90,7 @@ The program was tested with numbers below, above and equal to 10, as well as inv
 
 
 
-Question 3: Dynamic Number Generator
+#Question 3: Dynamic Number Generator
 
 This program creates an ordered list containing five numbered items when the user clicks Generate.
 
