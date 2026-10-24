@@ -14,9 +14,8 @@ This program changes the welcome message when the user clicks the Change Message
 
 How to Run:
 
-1.Open questionOne.html in a web browser.
-
-2.Click the Change Message button.
+1. Open questionOne.html in a web browser.
+2. Click the Change Message button.
 
 Expected Output:
 The message changes from "Welcome to my website!" to "Hello there!".
@@ -45,11 +44,9 @@ This program checks whether the user's input is a valid number and compares it w
 
 How to Run:
 
-1.Open questionTwo.html in a web browser.
-
-2.Enter a number in the input field.
-
-3.Click the Check button.
+1. Open questionTwo.html in a web browser.
+2. Enter a number in the input field.
+3. Click the Check button.
 
 Expected Output:
 The page displays whether the number is lower than, higher than or equal to 10. Invalid input displays an error message.
